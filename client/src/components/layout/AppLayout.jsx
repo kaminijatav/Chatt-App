@@ -5,8 +5,7 @@ import { Grid2 as Grid } from '@mui/material';
 import ChatList from '../specific/ChatList';
 import { sampleChats } from '../../constants/sampleData';
 import { useParams } from 'react-router-dom';
-import { blue } from '@mui/material/colors';
-
+import Profile from '../specific/Profile';
 
 
 const AppLayout = () => (WrappedComponent) => {
@@ -52,7 +51,7 @@ const handleDeleteChat=(e,_id,groupChat)=>{
                             bgcolor: "rgba(0,0,0,0.85)"
                         }}
                     >
-                        Third
+                      <Profile/>
 
                     </Grid>
 
