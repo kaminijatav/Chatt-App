@@ -6,6 +6,7 @@ const AvatarCard = ({avatar=[],max=4}) => {
 <AvatarGroup max={max}>
  </AvatarGroup> 
   </Stack>
+  
 }
 
 export default AvatarCard
